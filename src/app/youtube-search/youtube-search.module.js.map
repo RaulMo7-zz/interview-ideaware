@@ -1,0 +1,1 @@
+{"version":3,"file":"youtube-search.module.js","sourceRoot":"","sources":["youtube-search.module.ts"],"names":[],"mappings":";;;;;;;;IAsBA;IACA,CAAC;IAbD;QAAC,eAAQ,CAAC;YACR,YAAY,EAAC,CAAC,iDAAsB,CAAC;YACrC,OAAO,EAAE;gBACP,qBAAY;gBACZ,+CAAoB;gBACpB,4BAAY;gBACZ,gCAAa;gBACb,mBAAW;gBACX,iBAAU;aACX;YACD,SAAS,EAAE,CAAC,6CAAoB,CAAC;SAClC,CAAC;2BAAA;IACW,2BAAmB,sBAC/B,CAAA"}

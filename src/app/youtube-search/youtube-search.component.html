@@ -1,0 +1,11 @@
+<input type="search" class="searchInput" [(ngModel)]="searchText" placeholder="Search" (keyup.enter)="search()">
+<bounce *ngIf="searching"></bounce>
+<div *ngIf="videosResult" class="row videoResults" infinite-scroll
+     [infiniteScrollDistance]="2"
+     [infiniteScrollThrottle]="300"
+     [scrollWindow]="false"
+     (scrolled)="onScroll()" (scrolledUp)="onScrollUp()">
+  <div *ngFor="let video of videosResult.items; let i = index" class="col-sm-4">
+    <img src="{{video.snippet.thumbnails.medium.url}}">
+  </div>
+</div>
